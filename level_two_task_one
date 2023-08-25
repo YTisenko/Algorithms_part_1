@@ -1,0 +1,9 @@
+def find_max(a: int, b: int, c: int):
+    if a > b and a > c:
+        print(a)
+    elif b > c and b >a:
+        print(b)
+    else:
+        print(c)
+
+find_max(124, 21, 32)
