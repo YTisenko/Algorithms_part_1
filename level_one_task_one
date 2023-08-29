@@ -1,4 +1,4 @@
-def foo_bar(number:int):
+def number(num:int):
     for i in range(1,101):
         if i % 3 == 0 and i % 7 == 0:
             print('BinGo')
@@ -9,4 +9,4 @@ def foo_bar(number:int):
         else:
             print(i)
 
-foo_bar(21)
+number(21)
