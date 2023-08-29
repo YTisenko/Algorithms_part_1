@@ -1,12 +1,12 @@
-def foo_bar():
+def foo_bar(number:int):
     for i in range(1,101):
-        if i % 3 == 0:
-            print('Bin')
+        if i % 3 == 0 and i % 7 == 0:
+            print('BinGo')
         elif i % 7 == 0:
             print('Go')
-        elif i % 3 == 0 and i % 7 == 0:
-            print ('BinGo')
+        elif  i % 3 == 0:
+            print ('Bin')
         else:
             print(i)
 
-foo_bar()
+foo_bar(21)
