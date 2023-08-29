@@ -1,11 +1,11 @@
 def leap_year(year: int):
-    if year % 4 ==0:
+    if year % 100 ==0 and year % 400 == 0:
         print ('leap')
-    elif year % 100 ==0 and year % 400 == 0:
-        print ('leap')
+    elif year % 4 ==0:
+        print('leap')
     elif year % 100 == 0:
-        print ('not a leap')
+        print('not a leap')
     else:
         print ('not a leap')
 
-leap_year ()
+leap_year (2000)
