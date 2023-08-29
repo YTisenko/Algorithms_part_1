@@ -1,4 +1,4 @@
-def leap_year(year: int):
+def year(year: int):
     if year % 100 ==0 and year % 400 == 0:
         print ('leap')
     elif year % 4 ==0:
@@ -8,4 +8,4 @@ def leap_year(year: int):
     else:
         print ('not a leap')
 
-leap_year (2000)
+year (2000)
